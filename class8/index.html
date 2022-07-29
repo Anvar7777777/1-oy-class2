@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- <div class="container"></div>
+    <button>Register</button>
+    <h1 class="title">Hello World</h1> -->
+
+    <!-- deyarli barcha inputlar for teglari ichiga yoziladi.Form inputlarga qoshimcha funksiya qoshadi.bu yerda action sizga beriladigan backend ni linkini ulash vazifasini bajaradi -->
+    <!-- Malumotlar Javascript orqali olinadi va shu orqali jonatiladi -->
+    <form action="">
+        <input type="text" placeholder="Your Name" required>
+        <br>
+        <input type="number" placeholder="Your age">
+        <br>
+        <input type="password" placeholder="Your password" required minlength="8" maxlength="10">
+        <br>
+        <input type="search" placeholder="Search products">
+        <br>
+        <input type="date">
+        <br>
+        <input type="week">
+        <br>
+        <input type="month">
+        <br>
+        <input type="time">
+        <br>
+        <input type="color">
+        <br>
+        <input type="range" step="33.3">
+        <br>
+        <input type="checkbox" checked> 
+        <!-- sayt yuklanganda sahifa checked boladi yani tekshirilgan -->
+        <br>
+        <!-- spandan kora label ishlatgan yaxhiroq chunki label orqali soz orqali radioni ham tanlay olamiz id bir xil bolishi kerak -->
+        <!-- bu yerda namedagi nomlarni bir xil yozish orqali belgilanganligini bildiruvchi knopkani ozgartirishimiz mumkin -->
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="male">
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="female">
+        <br>
+        <input type="email">
+        <button>Register</button>
+        <br>
+        <input type="file">
+        <br>
+        <input type="reset">
+        <br>
+        <select>
+            <option value="">Uzbekistan</option>
+            <option value=""selected>Russia</option>
+            <option value="">China</option>
+            <option value="">USA</option>
+        </select>
+        <br>
+
+        <textarea name="textarea" id="" cols="50" rows="10" placeholder="Type something"></textarea>
+        <br>
+        <input type="">
+
+        <fieldset class="wrapper">
+            <legend>Register for free account</legend>
+            <input type="text" placeholder="Your name">
+            <input type="password" placeholder="Your Password">
+        </fieldset>
+        <button>Register</button>
+    </form>
+<br>
+<br><br>
+</body>
+</html>
