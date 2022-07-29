@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* box-sizing:border-box divni ichida border beradi */
+}
+
+.container{
+    width: 200px;
+    height: 200px;
+    background-color: dodgerblue;
+    border: 10px solid red;
+}
+.container_two{
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    border: 10px solid gold;
+    box-sizing: content-box;
+    /* box-sizing:content-box divni tashqarisida border beradi */
+}
+.paragraph_one{
+    color: green;
+    background-color: gold;
+    /* padding-top: 30px;
+    padding-bottom: 60px;
+    padding-left: 70px;
+    padding-right: 100px; */
+    padding: 30px 100px 60px 70px;
+}
+.paragraph_two{
+    color: red;
+    background-color: pink;
+    /* margin-top: 30px;
+    margin-left: 40px;
+    margin-right: 100px;
+    margin-bottom: 80px; */
+    margin: 30px 100px 80px 40px;
+}
+.main{
+    width: 100%;
+    height: 600px;
+    background-color: red;
+}
+
+.card{
+    width: 350px;
+    height: 512px;
+    background-color: green;
+    border: 1px solid blue;
+    display: inline-block;
+    margin: 40px 23px;
+}
+.container_main{
+    width: 1200px;
+    height: 550px;
+    margin: auto;
+}
+.text{
+    background-color: aqua;
+    margin: 30px 60px 80px 20px;
+    padding: 70px 50px 90px 10px;
+    border-top: 10px solid black;
+    border-right: 4px solid green;
+    border-bottom: 7px solid red;
+    border-left: 8px solid gold;
+    color: green;
+}
+.header{
+    width: 100%;
+    height: 400px;
+    background-color: green;
+}
+.nav{
+    width: 100;
+    height: 60px;
+    background-color: blue;
+}
+.sub_nav{
+    width: 100%;
+    height: 45px;
+    background-color: dodgerblue;
+}
+.hero{
+    width: 1400px;
+    height: 300px;
+    background-color: lawngreen;
+    margin: auto;
+}
+.main{
+    width: 100%;
+    height: 1000px;
+    background-color: red;
+}
+.footer{
+    width: 100%;
+    height: 500px;
+    background-color: pink;
+}
+.heading{
+    color: green;
+    font-family: 'Press Start 2P',cursive;
+}
