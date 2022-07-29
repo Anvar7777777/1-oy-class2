@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 300px;
+    height: 400px;
+    background-color: green;
+    margin: 50px 0px 0 100px;
+    /* 1-son x-boyicha olchov */
+    /* 2-son y-boyicha olchov */
+    /* 3-son rangni xiralashtirish darajasi */
+    /* 4-son soyani tarqalish radusi */
+    
+    box-shadow:  -30px 50px 50px 50px gray;
+}
+.home_title{
+    color: red;
+    margin: 200px 0 0 100px;
+    text-shadow: 30px 20px 5px green;
+}
+.box{
+    width: 200px;
+    height: 400px;
+    background-color: purple;
+}
+.box:hover{
+    background-color: dodgerblue;
+    border-radius: 50px;
+}
+.paragraph{
+    color: red;
+}
+.paragraph:hover{
+    text-decoration: underline;
+    
+}
+.btn{
+    width: 300px;
+    height: 50px;
+    font-size: 23px;
+    margin: 100px;
+    background-color: dodgerblue;
+    color: white;
+    border: none;
+    border-radius: 10px;
+   
+}
+.btn:hover{
+    background-color: #0c69c5;
+    cursor: pointer;
+    /* cursor- maousni belgisini ozgartiradi */
+}
+.btn:focus{
+    box-shadow: 0 0 0 5px #99cbfc;
+}
+.demo{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transition: 0.5s;
+}
+.demo:hover{
+    transition: 0.5s;
+    border-radius: 50%;
+    background-color: purple;
+}
+.line{
+    color: green;
+}
+.line:visited{
+    color: aquamarine;
+}
+li:first-child{
+    background-color: red;
+    font-size: 30px;
+    color: #fff;
+    width: 300px;
+}
+li:nth-child(3){
+    background-color: gold;
+    font-size: 40px;
+}
